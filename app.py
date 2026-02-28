@@ -1,7 +1,7 @@
 import warnings
 warnings.filterwarnings('ignore')
 import streamlit as st
-from ddgs import DDGS
+from duckduckgo_search import DDGS
 import requests
 from bs4 import BeautifulSoup
 import re, time
