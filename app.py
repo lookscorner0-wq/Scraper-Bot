@@ -1,3 +1,5 @@
+import subprocess
+subprocess.run(["pip", "install", "duckduckgo-search"], capture_output=True)
 import warnings
 warnings.filterwarnings('ignore')
 import streamlit as st
