@@ -1,5 +1,5 @@
 import subprocess
-subprocess.run(["pip", "install", "duckduckgo-search"], capture_output=True)
+subprocess.run(["pip", "install", "duckduckgo-search", "beautifulsoup4"], check=False)
 import warnings
 warnings.filterwarnings('ignore')
 import streamlit as st
