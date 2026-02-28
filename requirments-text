@@ -1,4 +1,4 @@
 streamlit
-duckduckgo-search
+duckduckgo-search==6.3.7
 requests
 beautifulsoup4
